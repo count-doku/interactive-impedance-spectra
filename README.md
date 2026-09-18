@@ -73,6 +73,10 @@ The tests pin the model to cases with a known closed form — a CPE at $\phi = 1
 has to equal a capacitor, a ZARC at $\phi = 1$ has to equal an RC, the model at
 high frequency has to converge to $R_0$ — plus passivity across the whole band.
 
+## Licence
+
+MIT — see [LICENSE](LICENSE).
+
 ## Reference
 
 S. Holm, T. Holm, Ø. G. Martinsen: *Simple circuit equivalents for the constant
