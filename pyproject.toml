@@ -1,0 +1,19 @@
+[project]
+name = "interactive-impedance-spectra"
+version = "1.0.0"
+description = "Interactive Nyquist plots of a lithium-ion cell equivalent-circuit model"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipympl>=0.9",
+    "ipywidgets>=8.1",
+    "jupyterlab>=4.2",
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["test_impedance.py"]
